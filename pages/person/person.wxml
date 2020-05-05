@@ -1,0 +1,24 @@
+<view class="container_person">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="seperator"></view>
+  <view class="box" hover-class="button-hover" hover-start-time="0" hover-stay-time="300" bindtap="tapAssign">
+    <image src="/images/assign.png" class="box_image"></image>
+    <view class="box_text">我的任务</view>
+  </view>
+  <view class="box" style="border-top:none" hover-class="button-hover" hover-start-time="0" hover-stay-time="300" bindtap="tapTake">
+    <image src="/images/take.png" class="box_image"></image>
+    <view class="box_text">我的接单</view>
+  </view>
+  <view class="seperator"></view>
+  <view class="box" hover-class="button-hover" hover-start-time="0" hover-stay-time="300" bindtap="tapBlack">
+    <image src="/images/blacklist.png" class="box_image"></image>
+    <view class="box_text">我的拉黑</view>
+  </view>
+  <view class="seperator" style="position:absolute;height:60%"></view>
+</view>

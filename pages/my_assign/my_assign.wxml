@@ -1,0 +1,2 @@
+<!--pages/my_assign/my_assign.wxml-->
+<text style="display:flex;justify_content:center;">你的订单的信息</text>

@@ -1,0 +1,16 @@
+<view class="info_container">
+  <view class="info_header">
+    <view class="info">任务信息:</view>
+    <view class="title">标题：{{title}}</view>
+    <view class="sub">所在:{{where_complete}}|交接:{{where_handle}}|交易类型:{{deal_type}}</view>
+    <view class="reward">{{reward}}</view>
+  </view>
+  <view wx:if="{{has_take}}" class="belong_info">
+    <view >姓名:</view>
+    <view>手机号:</view>
+    <view>QQ/WX:</view>
+  </view>
+  <view class="info_body">
+    <view></view>
+  </view>
+</view>

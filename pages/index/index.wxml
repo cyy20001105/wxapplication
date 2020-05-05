@@ -1,0 +1,5 @@
+<image class="add_button" src="/images/plus1.png" bindtap="createAssign"></image>
+<view wx:for="{{list}}" class="assign_box" bindtap="lookDetail" data-index="{{index}}">
+  <view>{{item.title}}</view>
+  <view>{{item.reward}}</view>
+</view>

@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/person/person",
+    "pages/my_assign/my_assign",
+    "pages/black_list/black_list",
+    "pages/take_assign/take_assign"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#E58308",
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "任务榜单",
+      "iconPath": "./images/card.png",
+      "selectedIconPath": "./images/card.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "个人",
+      "iconPath": "./images/person.png",
+      "selectedIconPath": "./images/person.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

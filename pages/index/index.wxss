@@ -1,0 +1,12 @@
+.add_button{
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #E5BB87;
+}
+.assign_box{
+  border: solid 1px;
+}
